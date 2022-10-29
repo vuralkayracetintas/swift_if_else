@@ -56,15 +56,39 @@
 		5CF0BD1F290D99BC00E85BA5 /* UIActivityIndicatorExample */ = {
 			isa = PBXGroup;
 			children = (
+				5CF0BD36290D99E400E85BA5 /* Supporting Files */,
+				5CF0BD35290D99D800E85BA5 /* Controller */,
+				5CF0BD34290D99C500E85BA5 /* Views */,
+			);
+			path = UIActivityIndicatorExample;
+			sourceTree = "<group>";
+		};
+		5CF0BD34290D99C500E85BA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CF0BD26290D99BC00E85BA5 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5CF0BD35290D99D800E85BA5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5CF0BD24290D99BC00E85BA5 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5CF0BD36290D99E400E85BA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				5CF0BD20290D99BC00E85BA5 /* AppDelegate.swift */,
 				5CF0BD22290D99BC00E85BA5 /* SceneDelegate.swift */,
-				5CF0BD24290D99BC00E85BA5 /* ViewController.swift */,
-				5CF0BD26290D99BC00E85BA5 /* Main.storyboard */,
 				5CF0BD29290D99BE00E85BA5 /* Assets.xcassets */,
 				5CF0BD2B290D99BE00E85BA5 /* LaunchScreen.storyboard */,
 				5CF0BD2E290D99BE00E85BA5 /* Info.plist */,
 			);
-			path = UIActivityIndicatorExample;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
